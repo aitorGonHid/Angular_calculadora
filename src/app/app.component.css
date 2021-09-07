@@ -1,0 +1,31 @@
+.calculadora {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:200px;
+}
+.screen {
+    width: 200px;
+    text-align: right;
+}
+.inputs {
+    display: flex;
+    width: fit-content;
+    width: 200px;
+}
+.numbersBox {
+    display: grid;
+    width: 150px;
+}
+.operators {
+    display: grid;
+}
+.operator {
+  background-color: #ccc;
+}
+.button{
+  width: 50px;
+}
